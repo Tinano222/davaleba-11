@@ -1,0 +1,31 @@
+.texts > p:first-child {
+    color: red;
+}
+
+.texts > p:last-child {
+    color: green;
+}
+
+label::first-letter {
+    font-size: 18px;
+    color: blue;
+}
+
+.texts {
+    height:300px;
+    width: 150px;
+    margin: 100px auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px 26px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 26px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 26px 3px rgba(0,0,0,0.75);
+    background-color: black;
+}
+
+p {
+    color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
