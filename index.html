@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>ლექცია 11</title>
+</head>
+<body>
+    <h1>ფორმები</h1>
+
+    <div class="texts">
+        <p>პირველი</p>
+        <p>მეორე</p>
+        <p>მესამე</p>
+    </div>
+
+    <form>
+        <fieldset>
+            <legend>რეგისტრაცია</legend>
+            <label for="firstname">სახელი</label>
+            <input type="text" id="firstname" required placeholder="სახელი">
+        
+            <br>
+            <br>
+        
+            <label for="lastname">გვარი</label>
+            <input type="text>" id="lastname" required>
+        
+            <br>
+            <br>
+        
+            <label for="date">ასაკი</label>
+            <input type="date" id="date" required>
+        
+            <br>
+            <br>
+        
+            <label for="mail">მეილი</label>
+            <input type="email" id="mail" required placeholder="text@gmail.com">
+        
+            <br>
+            <br>
+        
+            <label for="paroli">პაროლი</label>
+            <input type="password" id="paroli" minlength="6" required>
+        
+            <br>
+            <br>
+    
+            <label for="foto">ფოტო</label>
+            <input type="file" id="foto">
+    
+            <br>
+            <br>
+
+            <label>ფილიალი</label>
+            <select>
+                <option>თბილისი</option>
+                <option>ბათუმი<option>
+                <option>ქუთაისი</option>
+                <option>თელავი</option>
+            </select>
+            
+            <br>
+            <br>
+
+            <h3>აირჩიეთ თქვენი მიმართულება</h3>
+            <input type="radio" id="front" name="stack" value="front">
+            <label for="front">front-end</label>
+            <br>
+            <input type="radio" id="back" name="stack" value="back">
+            <label for="back"> back-end</label>
+    
+            <br>
+            <br>
+            <h3>სად ისურვებდიძთ კარიერის გაგრძელებას</h3>
+            <input type="checkbox" id="google" name="google" value="google">
+            <label for="google">google</label>
+            <br>
+            <input type="checkbox" id="facebook">
+            <label for="facebook" name="facebook" value="facebook">facebook</label>
+    
+            <br>
+            <br>
+
+            <h3>სამოტივაციო წერილი</h3>
+            <textarea required rows="6" cols="70"></textarea>
+            
+            <br>
+            <br>
+
+            <button type="submit">რეგისტრაცია</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
